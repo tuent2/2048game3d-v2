@@ -14,8 +14,8 @@ public class InAppPurchase : MonoBehaviour
         PlayerPrefs.SetInt("Purchase", 1);
         UIManager.Instance.NoADSIAP.gameObject.SetActive(false);
         UIManager.Instance.CloseInAppPanel();
-        AdManager.Instance.HideBanner();
-        AdManager.Instance.DestroyBanner();
+        //AdManager.Instance.HideBanner();
+        //AdManager.Instance.DestroyBanner();
     }
 
     public void OnPurchaseFailed()

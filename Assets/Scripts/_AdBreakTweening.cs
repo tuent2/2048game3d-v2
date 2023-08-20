@@ -14,7 +14,7 @@ public class _AdBreakTweening : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("Purchase", 0) == 0)
             {
-                AdManager.Instance.ShowInterstitial();
+                //AdManager.Instance.ShowInterstitial();
             }
             Destroy(gameObject, 2);
 

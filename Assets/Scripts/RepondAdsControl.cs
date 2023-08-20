@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using HmsPlugin;
+//using HmsPlugin;
 public class RepondAdsControl : MonoBehaviour
 {
     public GameObject RespondPanel;
@@ -30,7 +30,7 @@ public class RepondAdsControl : MonoBehaviour
             RespondPanel.SetActive(false);
             if (PlayerPrefs.GetInt("Purchase", 0) == 0)
             {
-                AdManager.Instance.ShowInterstitial();
+                //AdManager.Instance.ShowInterstitial();
             }
         }
         RespondText.text = "Ads will appear in: " + Mathf.FloorToInt(currentTime).ToString();

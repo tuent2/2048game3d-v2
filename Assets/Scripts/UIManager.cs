@@ -111,7 +111,7 @@ public class UIManager : MonoBehaviour
     public void buyGemIAP(string productID)
     {
         // HMSIAPManager.Instance.PurchaseProduct(productID);
-        AdManager.Instance.buyIAPChecked(productID);
+        //AdManager.Instance.buyIAPChecked(productID);
         InAppPanel.SetActive(false);
     }
 
@@ -142,7 +142,7 @@ public class UIManager : MonoBehaviour
     public void getMoreCoin()
     {
         GameManager.isGameScreen = false;
-        AdManager.Instance.ShowRewardBasedVideo();
+        //AdManager.Instance.ShowRewardBasedVideo();
         StartCoroutine(wattingset());
     }
 

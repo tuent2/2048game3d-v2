@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using HmsPlugin;
+//using HmsPlugin;
 public class RepondRewardAds : MonoBehaviour
 {
     public GameObject RespondRwaPanel;
