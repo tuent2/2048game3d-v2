@@ -117,18 +117,21 @@ public class GameManager : MonoBehaviour
                     }
                 }
             }
-        }
+
+    }
 
 
-        IEnumerator DelaySetUsingItem()
-        {
-            yield return new WaitForSeconds(0.1f);
-            isUsingItem = false;
-        }
-        //if(Input.anyKeyDown)
-        //  {
-        //     
-        //  }
+
+    //if(Input.anyKeyDown)
+    //  {
+    //     
+    //  }
+}
+
+    IEnumerator DelaySetUsingItem()
+    {
+        yield return new WaitForSeconds(0.1f);
+        isUsingItem = false;
     }
 
     public void OnGenBox()

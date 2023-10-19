@@ -1,0 +1,452 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# min_api: 22
+# pg_map_id: 609e0d3
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+bitter.jnibridge.JNIBridge$a -> bitter.jnibridge.JNIBridge$a:
+    java.lang.Object -$$Nest$fgeta(bitter.jnibridge.JNIBridge$a) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputb(bitter.jnibridge.JNIBridge$a,long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.ChoreographerCallback$b -> com.google.androidgamesdk.ChoreographerCallback$b:
+    void <init>(com.google.androidgamesdk.ChoreographerCallback,com.google.androidgamesdk.ChoreographerCallback$b-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.ChoreographerCallback$b-IA -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.SwappyDisplayManager -> com.google.androidgamesdk.SwappyDisplayManager:
+    android.app.Activity -$$Nest$fgetmActivity(com.google.androidgamesdk.SwappyDisplayManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.SwappyDisplayManager$b -> com.google.androidgamesdk.SwappyDisplayManager$b:
+    void <init>(com.google.androidgamesdk.SwappyDisplayManager,com.google.androidgamesdk.SwappyDisplayManager$b-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.SwappyDisplayManager$b-IA -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.Banner -> com.google.unity.ads.Banner:
+    com.google.android.gms.ads.AdView -$$Nest$fgetmAdView(com.google.unity.ads.Banner) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetmHidden(com.google.unity.ads.Banner) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.UnityAdListener -$$Nest$fgetmUnityListener(com.google.unity.ads.Banner) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.app.Activity -$$Nest$fgetmUnityPlayerActivity(com.google.unity.ads.Banner) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmHidden(com.google.unity.ads.Banner,boolean) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmHorizontalOffset(com.google.unity.ads.Banner,int) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmPositionCode(com.google.unity.ads.Banner,int) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmVerticalOffset(com.google.unity.ads.Banner,int) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mcreateAdView(com.google.unity.ads.Banner,java.lang.String,com.google.android.gms.ads.AdSize) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.widget.FrameLayout$LayoutParams -$$Nest$mgetLayoutParams(com.google.unity.ads.Banner) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mupdatePosition(com.google.unity.ads.Banner) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.Banner$Insets-IA -> com.google.unity.ads.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.Interstitial -> com.google.unity.ads.Interstitial:
+    android.app.Activity -$$Nest$fgetactivity(com.google.unity.ads.Interstitial) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.UnityInterstitialAdCallback -$$Nest$fgetcallback(com.google.unity.ads.Interstitial) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.android.gms.ads.interstitial.InterstitialAd -$$Nest$fgetinterstitialAd(com.google.unity.ads.Interstitial) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputinterstitialAd(com.google.unity.ads.Interstitial,com.google.android.gms.ads.interstitial.InterstitialAd) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.UnityAppOpenAd -> com.google.unity.ads.UnityAppOpenAd:
+    android.app.Activity -$$Nest$fgetactivity(com.google.unity.ads.UnityAppOpenAd) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.android.gms.ads.appopen.AppOpenAd -$$Nest$fgetappOpenAd(com.google.unity.ads.UnityAppOpenAd) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.UnityAppOpenAdCallback -$$Nest$fgetcallback(com.google.unity.ads.UnityAppOpenAd) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputappOpenAd(com.google.unity.ads.UnityAppOpenAd,com.google.android.gms.ads.appopen.AppOpenAd) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mrunOnNewThread(com.google.unity.ads.UnityAppOpenAd,java.lang.Runnable) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.UnityRewardedAd -> com.google.unity.ads.UnityRewardedAd:
+    android.app.Activity -$$Nest$fgetactivity(com.google.unity.ads.UnityRewardedAd) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.UnityRewardedAdCallback -$$Nest$fgetcallback(com.google.unity.ads.UnityRewardedAd) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.android.gms.ads.rewarded.RewardedAd -$$Nest$fgetrewardedAd(com.google.unity.ads.UnityRewardedAd) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputrewardedAd(com.google.unity.ads.UnityRewardedAd,com.google.android.gms.ads.rewarded.RewardedAd) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.UnityRewardedInterstitialAd -> com.google.unity.ads.UnityRewardedInterstitialAd:
+    android.app.Activity -$$Nest$fgetactivity(com.google.unity.ads.UnityRewardedInterstitialAd) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.UnityRewardedInterstitialAdCallback -$$Nest$fgetcallback(com.google.unity.ads.UnityRewardedInterstitialAd) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd -$$Nest$fgetrewardedInterstitialAd(com.google.unity.ads.UnityRewardedInterstitialAd) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputrewardedInterstitialAd(com.google.unity.ads.UnityRewardedInterstitialAd,com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback -> com.google.unity.ads.admanager.AdManagerInterstitialAdCallback:
+    void $r8$lambda$7Xt_QFd1amKYKc_8hsl0qdxEHms(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.UnityAdManagerInterstitialAdCallback -$$Nest$fgetcallback(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$$ExternalSyntheticLambda0 -> com.google.unity.ads.admanager.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$$InternalSyntheticLambda$0$83c7f7fa5a350b880cd9ab956332614a696703e541ae798d2faa7192bd27149c$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$$InternalSyntheticLambda$0$83c7f7fa5a350b880cd9ab956332614a696703e541ae798d2faa7192bd27149c$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$$InternalSyntheticLambda$0$83c7f7fa5a350b880cd9ab956332614a696703e541ae798d2faa7192bd27149c$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1 -> com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1:
+    void $r8$lambda$gEYtCmIEHclETc2o-axPQhJQU8M(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1,com.google.android.gms.ads.AdValue) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1$$ExternalSyntheticLambda0 -> com.google.unity.ads.admanager.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1$$InternalSyntheticLambda$0$880c3483e258a8d5e711d64048a1a8a094c1d7c51fbb03914209961359d3849c$0.f$0 -> a
+    com.google.android.gms.ads.AdValue com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1$$InternalSyntheticLambda$0$880c3483e258a8d5e711d64048a1a8a094c1d7c51fbb03914209961359d3849c$0.f$1 -> b
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1$$InternalSyntheticLambda$0$880c3483e258a8d5e711d64048a1a8a094c1d7c51fbb03914209961359d3849c$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1,com.google.android.gms.ads.AdValue) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$1$$InternalSyntheticLambda$0$880c3483e258a8d5e711d64048a1a8a094c1d7c51fbb03914209961359d3849c$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2 -> com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2:
+    void $r8$lambda$fDbudJWhLDKmkpbIxZQXAhNIRQY(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2,java.lang.String,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$ExternalSyntheticLambda0 -> com.google.unity.ads.admanager.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$InternalSyntheticLambda$0$b1f3ede06e267e97002567889b586a0f48c9b05daadb67c1d5a47e5058c322e4$0.f$2 -> c
+    java.lang.String com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$InternalSyntheticLambda$0$b1f3ede06e267e97002567889b586a0f48c9b05daadb67c1d5a47e5058c322e4$0.f$1 -> b
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$InternalSyntheticLambda$0$b1f3ede06e267e97002567889b586a0f48c9b05daadb67c1d5a47e5058c322e4$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$InternalSyntheticLambda$0$b1f3ede06e267e97002567889b586a0f48c9b05daadb67c1d5a47e5058c322e4$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2,java.lang.String,java.lang.String) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$2$$InternalSyntheticLambda$0$b1f3ede06e267e97002567889b586a0f48c9b05daadb67c1d5a47e5058c322e4$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 -> com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3:
+    void $r8$lambda$9OYCWCEb2cdcgqdfaPvzyHDPYmQ(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$LtAbN7qmFKg4XhhYMmqeQ7886Co(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$nXKZN9OTmqG0W5DrOarLlw7T9Fc(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$r2x4U8NzBRU9sRnUkxawuvCNBTE(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$zu_vYVCsJYye4vRaEfT0f9xNAsU(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3,com.google.android.gms.ads.AdError) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$ExternalSyntheticLambda0 -> com.google.unity.ads.admanager.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$293ebd6a77fb716bfb0b4e6252ca06aab61cf2127c2e48f6eef7b387bfe67fbc$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$293ebd6a77fb716bfb0b4e6252ca06aab61cf2127c2e48f6eef7b387bfe67fbc$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$293ebd6a77fb716bfb0b4e6252ca06aab61cf2127c2e48f6eef7b387bfe67fbc$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$ExternalSyntheticLambda1 -> com.google.unity.ads.admanager.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$e355b594185c7c42ee1eb9d41ee014441602cbcb59a67dec1063c302ae61fd33$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$e355b594185c7c42ee1eb9d41ee014441602cbcb59a67dec1063c302ae61fd33$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$e355b594185c7c42ee1eb9d41ee014441602cbcb59a67dec1063c302ae61fd33$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$ExternalSyntheticLambda2 -> com.google.unity.ads.admanager.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$1c294a86270d9bdb6e27049a67e5bca9c6c1bc5e8a427e754c3c2bf5aa849372$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$1c294a86270d9bdb6e27049a67e5bca9c6c1bc5e8a427e754c3c2bf5aa849372$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$1c294a86270d9bdb6e27049a67e5bca9c6c1bc5e8a427e754c3c2bf5aa849372$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$ExternalSyntheticLambda3 -> com.google.unity.ads.admanager.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$045b37d7d1ae1326fa4340fcca10f32250674105078c9c983fadb1934a5c2902$0.f$0 -> a
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$045b37d7d1ae1326fa4340fcca10f32250674105078c9c983fadb1934a5c2902$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$045b37d7d1ae1326fa4340fcca10f32250674105078c9c983fadb1934a5c2902$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$ExternalSyntheticLambda4 -> com.google.unity.ads.admanager.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3 com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$6f4932243b49992b4114854909967f07539d68e5caf567790b4076cdbc0a885c$0.f$0 -> a
+    com.google.android.gms.ads.AdError com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$6f4932243b49992b4114854909967f07539d68e5caf567790b4076cdbc0a885c$0.f$1 -> b
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$6f4932243b49992b4114854909967f07539d68e5caf567790b4076cdbc0a885c$0.<init>(com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3,com.google.android.gms.ads.AdError) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.AdManagerInterstitialAdCallback$3$$InternalSyntheticLambda$0$6f4932243b49992b4114854909967f07539d68e5caf567790b4076cdbc0a885c$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.UnityAdManagerInterstitialAd -> com.google.unity.ads.admanager.UnityAdManagerInterstitialAd:
+    com.google.android.gms.ads.ResponseInfo $r8$lambda$N37iiOrwWseSaogcPCaKWCsOD_Y(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$mi7C5QZ-QlkSYChEowKbNXszyz4(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd,java.lang.String,com.google.android.gms.ads.admanager.AdManagerAdRequest,com.google.unity.ads.admanager.AdManagerInterstitialAdCallback) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$nq6A6eRvHJFba44qvaifuDFH8n0(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$ExternalSyntheticLambda0 -> com.google.unity.ads.admanager.i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.UnityAdManagerInterstitialAd com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$bbbfd1fddc9301638f9193f15ff128815740f3ca4ec3a05685f4a79c5d85772f$0.f$0 -> a
+    void com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$bbbfd1fddc9301638f9193f15ff128815740f3ca4ec3a05685f4a79c5d85772f$0.<init>(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$bbbfd1fddc9301638f9193f15ff128815740f3ca4ec3a05685f4a79c5d85772f$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$ExternalSyntheticLambda1 -> com.google.unity.ads.admanager.j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.UnityAdManagerInterstitialAd com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.f$0 -> a
+    com.google.android.gms.ads.admanager.AdManagerAdRequest com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.f$2 -> c
+    java.lang.String com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.f$1 -> b
+    com.google.unity.ads.admanager.AdManagerInterstitialAdCallback com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.f$3 -> d
+    void com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.<init>(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd,java.lang.String,com.google.android.gms.ads.admanager.AdManagerAdRequest,com.google.unity.ads.admanager.AdManagerInterstitialAdCallback) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$1f58a21750303963168b3f4f25aa7c5e6f2dcfd7e34db5ea3f7f05b3541c5580$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$ExternalSyntheticLambda2 -> com.google.unity.ads.admanager.k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.google.unity.ads.admanager.UnityAdManagerInterstitialAd com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$f4c55b5f624278c43156ffec6a64c20c76183ff9817aec6de5c2e3320a2ea8a6$0.f$0 -> a
+    void com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$f4c55b5f624278c43156ffec6a64c20c76183ff9817aec6de5c2e3320a2ea8a6$0.<init>(com.google.unity.ads.admanager.UnityAdManagerInterstitialAd) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object com.google.unity.ads.admanager.UnityAdManagerInterstitialAd$$InternalSyntheticLambda$0$f4c55b5f624278c43156ffec6a64c20c76183ff9817aec6de5c2e3320a2ea8a6$0.call() -> call
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lofelt.haptics.Player -> com.lofelt.haptics.Player:
+    boolean $r8$lambda$XVGXNyyEFCISWi9j4_iMBCDuCPE(int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean $r8$lambda$voHRD0pqdjtv4NJsy_H9PIEw8Bg(long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lofelt.haptics.Player$$ExternalSyntheticLambda0 -> com.lofelt.haptics.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$1 com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$1.INSTANCE -> a
+    void com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$1.<clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$1.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$1.test(int) -> test
+      # {"id":"com.android.tools.r8.synthesized"}
+com.lofelt.haptics.Player$$ExternalSyntheticLambda1 -> com.lofelt.haptics.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$0 com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$0.INSTANCE -> a
+    void com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$0.<clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean com.lofelt.haptics.Player$$InternalSyntheticLambda$0$c6fe19437346c8099b19ee69782d1a4035f8b07de1a38a8c278b766e09baa315$0.test(long) -> test
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.B -> com.unity3d.player.B:
+    int -$$Nest$sfgeta() -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sfgetb() -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sfgetc() -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.C -> com.unity3d.player.C:
+    android.content.Context -$$Nest$fgeta(com.unity3d.player.C) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.UnityPlayer -$$Nest$fgetb(com.unity3d.player.C) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.C,java.lang.String,boolean) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String -$$Nest$mb(com.unity3d.player.C) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.HFPStatus -> com.unity3d.player.HFPStatus:
+    boolean -$$Nest$fgetc(com.unity3d.player.HFPStatus) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.AudioManager -$$Nest$fgetd(com.unity3d.player.HFPStatus) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgete(com.unity3d.player.HFPStatus) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fpute(com.unity3d.player.HFPStatus,boolean) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.HFPStatus,com.unity3d.player.HFPStatus$a) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.J -> com.unity3d.player.J:
+    com.unity3d.player.a -$$Nest$fgeta(com.unity3d.player.J) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.UnityPlayer -$$Nest$fgetb(com.unity3d.player.J) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.w -$$Nest$fgetc(com.unity3d.player.J) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.M -> com.unity3d.player.M:
+    void -$$Nest$fputb(com.unity3d.player.M,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.NetworkConnectivityNougat -> com.unity3d.player.NetworkConnectivityNougat:
+    void -$$Nest$fputb(com.unity3d.player.NetworkConnectivityNougat,int) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper -> com.unity3d.player.ReflectionHelper:
+    long -$$Nest$sfgetb() -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyFinalize(long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$smnativeProxyInvoke(long,java.lang.String,java.lang.Object[]) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyLogJNIInvokeException(long) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper$a -> com.unity3d.player.ReflectionHelper$a:
+    void -$$Nest$fputd(com.unity3d.player.ReflectionHelper$a,long) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fpute(com.unity3d.player.ReflectionHelper$a,boolean) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper$b -> com.unity3d.player.ReflectionHelper$b:
+    int -$$Nest$fgetd(com.unity3d.player.ReflectionHelper$b) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
+    void -$$Nest$mnativeSendSurfaceChangedEvent(com.unity3d.player.UnityPlayer) -> A
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputArea(com.unity3d.player.UnityPlayer,int,int,int,int) -> B
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputSelection(com.unity3d.player.UnityPlayer,int,int) -> C
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputString(com.unity3d.player.UnityPlayer,java.lang.String) -> D
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetKeyboardIsVisible(com.unity3d.player.UnityPlayer,boolean) -> E
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetLaunchURL(com.unity3d.player.UnityPlayer,java.lang.String) -> F
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputCanceled(com.unity3d.player.UnityPlayer) -> G
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputClosed(com.unity3d.player.UnityPlayer) -> H
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputLostFocus(com.unity3d.player.UnityPlayer) -> I
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mshutdown(com.unity3d.player.UnityPlayer) -> J
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.app.Activity -$$Nest$fgetmActivity(com.unity3d.player.UnityPlayer) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.content.Context -$$Nest$fgetmContext(com.unity3d.player.UnityPlayer) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.J -$$Nest$fgetmGlView(com.unity3d.player.UnityPlayer) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetmInitialScreenOrientation(com.unity3d.player.UnityPlayer) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetmMainDisplayOverride(com.unity3d.player.UnityPlayer) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetmNaturalOrientation(com.unity3d.player.UnityPlayer) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.D -$$Nest$fgetm_SplashScreen(com.unity3d.player.UnityPlayer) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.IUnityPlayerLifecycleEvents -$$Nest$fgetm_UnityPlayerLifecycleEvents(com.unity3d.player.UnityPlayer) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmQuitting(com.unity3d.player.UnityPlayer,boolean) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmVideoPlayerProxy(com.unity3d.player.UnityPlayer,com.unity3d.player.V) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputm_SplashScreen(com.unity3d.player.UnityPlayer,com.unity3d.player.D) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mDisableStaticSplashScreen(com.unity3d.player.UnityPlayer) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mfinish(com.unity3d.player.UnityPlayer) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mgetAutoReportFullyDrawnEnabled(com.unity3d.player.UnityPlayer) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mgetHaveAndroidWindowSupport(com.unity3d.player.UnityPlayer) -> o
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mgetSplashEnabled(com.unity3d.player.UnityPlayer) -> p
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeFocusChanged(com.unity3d.player.UnityPlayer,boolean) -> q
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativeIsAutorotationOn(com.unity3d.player.UnityPlayer) -> r
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeLowMemory(com.unity3d.player.UnityPlayer) -> s
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeMuteMasterAudio(com.unity3d.player.UnityPlayer,boolean) -> t
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeOrientationChanged(com.unity3d.player.UnityPlayer,int,int) -> u
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativePause(com.unity3d.player.UnityPlayer) -> v
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeRecreateGfxState(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> w
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativeRender(com.unity3d.player.UnityPlayer) -> x
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeReportKeyboardConfigChanged(com.unity3d.player.UnityPlayer) -> y
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeResume(com.unity3d.player.UnityPlayer) -> z
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$A-IA -> com.unity3d.player.a0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$C-IA -> com.unity3d.player.b0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer$D-IA -> com.unity3d.player.c0:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.V -> com.unity3d.player.V:
+    com.unity3d.player.UnityPlayer -$$Nest$fgeta(com.unity3d.player.V) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.content.Context -$$Nest$fgetb(com.unity3d.player.V) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$fgetd(com.unity3d.player.V) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.locks.Lock -$$Nest$fgete(com.unity3d.player.V) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.N -$$Nest$fgetf(com.unity3d.player.V) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgeti(com.unity3d.player.V) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.V,com.unity3d.player.N) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputg(com.unity3d.player.V,int) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputi(com.unity3d.player.V,boolean) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.V) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.a.a -> b.a:
+com.unity3d.player.a.b -> b.b:
+com.unity3d.player.a.c -> b.c:
+com.unity3d.player.a.d -> b.d:
+    com.unity3d.player.IPermissionRequestCallbacks -$$Nest$fgeta(com.unity3d.player.a.d) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.c -> com.unity3d.player.c:
+    java.util.HashSet -$$Nest$fgeta(com.unity3d.player.c) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.i -> com.unity3d.player.i:
+    com.google.android.play.core.assetpacks.AssetPackManager -$$Nest$fgeta(com.unity3d.player.i) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.HashSet -$$Nest$fgetb(com.unity3d.player.i) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgetc(com.unity3d.player.i) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputc(com.unity3d.player.i,java.lang.Object) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.i -$$Nest$sfgetd() -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$sma(java.lang.Throwable) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.s -> com.unity3d.player.s:
+    com.unity3d.player.a.a -$$Nest$fgeta(com.unity3d.player.s) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CameraDevice -$$Nest$fgetb(com.unity3d.player.s) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.util.Range -$$Nest$fgetn(com.unity3d.player.s) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.Image -$$Nest$fgetp(com.unity3d.player.s) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CaptureRequest$Builder -$$Nest$fgetq(com.unity3d.player.s) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgets(com.unity3d.player.s) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.view.Surface -$$Nest$fgetv(com.unity3d.player.s) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputb(com.unity3d.player.s,android.hardware.camera2.CameraDevice) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputp(com.unity3d.player.s,android.media.Image) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputq(com.unity3d.player.s,android.hardware.camera2.CaptureRequest$Builder) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputr(com.unity3d.player.s,android.hardware.camera2.CameraCaptureSession) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.s,android.hardware.camera2.CameraDevice) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.s,java.lang.Object) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mf(com.unity3d.player.s) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$sfgetD() -> o
+      # {"id":"com.android.tools.r8.synthesized"}

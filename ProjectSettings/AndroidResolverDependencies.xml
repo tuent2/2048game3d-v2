@@ -1,17 +1,12 @@
 <dependencies>
   <packages>
-    <package>com.applovin.mediation:google-adapter:[21.4.0.1]</package>
-    <package>com.applovin:applovin-sdk:11.6.1</package>
-    <package>com.google.android.gms:play-services-ads:22.2.0</package>
-    <package>com.google.android.gms:play-services-ads-identifier:18.0.1</package>
-    <package>com.google.android.gms:play-services-basement:18.1.0</package>
-    <package>com.google.android.ump:user-messaging-platform:2.1.0</package>
-    <package>com.ironsource.sdk:mediationsdk:7.4.0</package>
+    <package>com.google.android.gms:play-services-ads:22.1.0</package>
+    <package>com.google.android.ump:user-messaging-platform:2.0.0</package>
   </packages>
   <files />
   <settings>
     <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="app.onlybadidea.fruitmania01.huawei" />
+    <setting name="bundleId" value="app.PFF.MergeNumber" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />
